@@ -1,0 +1,1043 @@
+
+
+
+
+.nav_icons{
+    height: 60px;
+display: flex;
+background:linear-gradient(white,yellow,rgb(255, 242, 0));
+
+justify-content:end;
+margin-left:  4px;
+margin-right: 4px;
+border-radius: 5px;
+
+}
+
+@media screen and (max-width:800px) {
+    .nav_icons{
+        justify-content:center;
+        background:linear-gradient(white,yellow,rgb(255, 166, 0));
+        
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .nav_icons{
+        justify-content:start;
+        background:linear-gradient(white,yellow,rgb(255, 166, 0));
+    
+    
+    }
+
+ 
+   
+}
+
+.nav_icons a{
+   
+    height: 50px;
+    width: 50px;
+
+   font-size: 20px;
+    margin: 6px;
+  margin-right: 20px;
+    line-height: 60px;
+   
+}
+a i{
+   margin-left: 19px;
+   transition: all 0.3s linear;
+}
+
+ .nav_icons a:hover i{
+   transform :scale(1.4);
+}
+
+.fa-instagram{
+    color: #e84393;
+}
+.fa-facebook{
+    color: rgb(0, 81, 255);
+}
+.fa-twitter{
+    color:rgb(0, 187, 255);
+}
+.fa-linkedin{
+    color: rgb(0, 136, 255);
+}
+
+.columnn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .roww:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+/* Reset default margin and padding */
+
+
+
+
+
+
+
+
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .columnn{
+      width: 100%;
+    }
+   
+  }
+
+
+  .navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+}
+
+.hamburger-menu {
+    display: none;
+    
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    background-color: #fff;
+    height: 3px;
+    width: 25px;
+    margin: 3px 0;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a {
+ color: orange;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.nav-links a:hover{
+    color: yellow;
+}
+
+
+@media (max-width: 768px) {
+    .hamburger-menu {
+        display: flex;
+      ;
+   
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links.active {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #333;
+        padding: 10px;
+    }
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+.roww{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+span{
+    font-size: 15px;
+    margin: 2rem;
+}
+
+
+
+
+.columnn {
+    float: left;
+    flex: 25%;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .roww:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+   
+   
+  
+ .size1{
+    height: 500px !important;
+background:whitesmoke;
+
+    width: 500px;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    opacity: 0.7;
+  
+  
+ }
+ .size2{
+    height: 900px;
+background-color: whitesmoke;
+
+    width: 500px;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    opacity: 0.7;
+  
+  
+ }
+ .size-qa{
+    height: 1300px;
+background:whitesmoke;
+
+    width: 500px;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    opacity: 0.7;
+  
+  
+ }
+
+ .size-ta{
+    height: 1800px;
+background:whitesmoke;
+
+    width: 500px;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    opacity: 0.7;
+  
+ }
+ .privacy{
+
+    height: 1500px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+     font-style: normal;
+         width: 500px;
+         margin-left: 4rem;
+         margin-top: 2rem;
+         margin-bottom: 10px;
+         opacity: 0.7;
+ }
+
+
+
+ .image-paragraph-list {
+    list-style: none;
+    padding: 0;
+}
+
+.image-paragraph-list li {
+    display: flex; /* Display image and paragraph in a row */
+    align-items: center; /* Vertically center the content */
+    margin-bottom: 20px; /* Add spacing between items (lines) */
+}
+
+.image-paragraph-list img {
+    width: 100px; /* Set the width of the image */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 10px; /* Add spacing between image and paragraph */
+}
+
+.image-paragraph-list p {
+    margin-left: 30px;
+}
+
+
+
+.map{
+    width: 500px;
+}
+
+
+
+
+
+
+
+ .heading{
+    font-size: 20px;
+    text-shadow: 2px 2px 5px orange;
+    margin: 2rem;
+    font-weight: 500;
+ }
+
+ .para{
+    font-size: 14px;
+    margin: 1rem;
+line-height: 20px;
+ }
+
+ .loc{
+    height: 250px;
+   background-color:white;
+    
+        width: 500px;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        opacity: 0.7;
+ }
+ .services{
+
+    height: 350px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+     font-style: normal;
+         width: 700px;
+         margin-left: 1rem;
+         margin-top: 2rem;
+         opacity: 0.7;
+
+ }
+/* Style your footer as needed */
+footer {
+    height: 3rem;
+    background-color: #333;
+    color: #fff;
+    text-align:center;
+    padding: 20px 0;
+}
+
+
+@media screen and (max-width: 1100px) {
+   
+    
+    .map{
+        width: 400px;
+    }
+   
+    .size1{
+        height: 600px !important;
+    background:white;
+    
+        width: 400px;
+        margin-left: 4rem;
+        margin-top: 2rem;
+        opacity: 0.7;
+      
+      
+     }
+     .size2{
+        height: 1300px;
+    background-color: white;
+    
+        width: 400px;
+        margin-left: 4rem;
+        margin-top: 2rem;
+        opacity: 0.7;
+      
+      
+     }
+     .size-qa{
+        height: 1600px;
+    background:white;
+    
+        width: 400px;
+        margin-left: 4rem;
+        margin-top: 2rem;
+        opacity: 0.7;
+      
+      
+     }
+     
+
+     .size-ta{
+        height: 1800px;
+    background:white;
+    
+        width: 500px;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        opacity: 0.7;
+      
+     }
+     .privacy{
+    
+        height: 1500px;
+        background-color: white;
+        font-family: 'Times New Roman', Times, serif;
+         font-style: normal;
+             width: 400px;
+             margin-left: 2rem;
+             margin-top: 2rem;
+             margin-bottom: 10px;
+             opacity: 0.7;
+     }
+
+     .loc{
+
+        height: 300px;
+        background-color:white;
+         
+             width: 400px;
+             margin-top: 2rem;
+             opacity: 0.7;
+
+
+     }
+
+   
+
+
+
+
+   
+    
+
+   
+}
+
+@media screen and (max-width: 910px) {
+    .size1{
+        height: 500px !important;
+    background:white;
+    
+        width: 500px;
+        margin-left: 14rem;
+        margin-top: 2rem;
+        opacity: 0.7;
+      
+      
+     }
+     .size2{
+        height: 1000px;
+    background-color: white;
+    
+        width: 500px;
+        margin-left: 14rem;
+        margin-top: 2rem;
+        opacity: 0.7;
+      
+      
+     }
+     .size-qa{
+        height: 1300px;
+    background:white;
+    
+        width: 500px;
+        margin-left: 14rem;
+        margin-top: 2rem;
+        opacity: 0.7;
+      
+      
+     }
+
+
+     .size-ta{
+        height: 1800px;
+    background:white;
+    
+        width: 500px;
+        margin-left: 14rem;
+        margin-top: 2rem;
+        opacity: 0.7;
+      
+     }
+     .privacy{
+    
+        height: 1500px;
+        background-color: white;
+        font-family: 'Times New Roman', Times, serif;
+         font-style: normal;
+             width: 500px;
+             margin-left: 14rem;
+             margin-top: 2rem;
+             margin-bottom: 10px;
+             opacity: 0.7;
+     }
+    
+     .loc{
+        height: 300px;
+       background-color:white;
+        
+            width: 500px;
+            margin-left: 14rem;
+            margin-top: 2rem;
+            opacity: 0.7;
+     }
+     .services{
+    
+        height: 500px;
+        background-color: white;
+        font-family: 'Times New Roman', Times, serif;
+         font-style: normal;
+             width: 500px;
+             margin-left: 14rem;
+             margin-top: 2rem;
+             opacity: 0.7;
+    
+     }
+
+.cons{
+    margin-left: 14rem;
+    width: 500px;
+}
+     
+
+        .find-me{
+
+    
+        height: 200px;
+       background-color:white;
+        
+            width: 500px;
+            margin-left: 14rem;
+            margin-top: 4rem;
+            opacity: 0.7;
+    
+}
+
+
+
+
+
+
+    .form-wrap{
+        margin-left: 8rem;
+        width: 700px;
+    }
+    .columnn {
+      flex: 50%;
+    }
+    
+    .roww{
+        flex-direction: column;
+    }
+    .map{
+        width: 500px;
+    }
+ 
+   
+  }
+ 
+
+  @media screen and (max-width: 786px) {
+    .size1{
+        height: 500px !important;
+    background:white;
+    
+        width: 500px;
+        margin-left: 4rem;
+        margin-top: 2rem;
+        opacity: 0.7;
+      
+      
+     }
+     .size2{
+        height: 1000px;
+    background-color: white;
+    
+        width: 500px;
+        margin-left: 4rem;
+        margin-top: 2rem;
+        opacity: 0.7;
+      
+      
+     }
+     .size-qa{
+        height: 1600px;
+    background:white;
+    
+        width: 400px;
+        margin-left: 7rem;
+        margin-top: 2rem;
+        opacity: 0.7;
+      
+      
+     }
+
+
+     .size-ta{
+        height: 2200px;
+    background:white;
+    
+        width: 400px;
+        margin-left: 7rem;
+        margin-top: 2rem;
+        opacity: 0.7;
+      
+     }
+     .privacy{
+    
+        height: 1700px;
+        background-color: white;
+        font-family: 'Times New Roman', Times, serif;
+         font-style: normal;
+             width: 400px;
+             margin-left: 7rem;
+             margin-top: 2rem;
+             margin-bottom: 10px;
+             opacity: 0.7;
+     }
+    
+     .loc{
+        height: 300px;
+       background-color:white;
+        
+            width: 400px;
+            margin-left: 7rem;
+            margin-top: 2rem;
+            opacity: 0.7;
+     }
+     .services{
+    
+        height: 500px;
+        background-color: white;
+        font-family: 'Times New Roman', Times, serif;
+         font-style: normal;
+             width: 500px;
+             margin-left: 4rem;
+             margin-top: 2rem;
+             opacity: 0.7;
+    
+     }
+
+     .cons{
+        margin-left: 4rem;
+        width: 500px;
+    }
+
+    .find-me{
+
+    
+        height: 200px;
+       background-color:white;
+        
+            width: 500px;
+            margin-left: 4rem;
+            margin-top: 4rem;
+            opacity: 0.7;
+    
+}
+         
+    
+           
+
+
+
+
+     .form-wrap{
+        margin-left: 4rem;
+        width: 500px;
+    }
+    
+    .columnn {
+      flex: 50%;
+    }
+   
+    .roww{
+        flex-direction: column;
+    }
+    .map{
+        width: 400px;
+    }
+ 
+   
+  }
+ 
+
+
+
+
+
+  
+  @media screen and (max-width: 550px) {
+    .size1{
+        height: 500px !important;
+    background:white;
+    
+        width: 400px;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        opacity: 0.7;
+      
+      
+     }
+     .size2{
+        height: 1370px;
+    background-color: white;
+    
+        width: 400px;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        opacity: 0.7;
+      
+      
+     }
+     .size-qa{
+        height: 1600px;
+    background:white;
+    
+        width: 400px;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        opacity: 0.7;
+      
+      
+     }
+
+
+     .size-ta{
+        height: 2200px;
+    background:white;
+    
+        width: 400px;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        opacity: 0.7;
+      
+     }
+     .privacy{
+    
+        height: 1700px;
+        background-color: white;
+        font-family: 'Times New Roman', Times, serif;
+         font-style: normal;
+             width: 400px;
+             margin-left: 2rem;
+             margin-top: 2rem;
+             margin-bottom: 10px;
+             opacity: 0.7;
+     }
+    
+     .loc{
+        height: 300px;
+       background-color:white;
+        
+            width: 400px;
+            margin-left: 2rem;
+            margin-top: 2rem;
+            opacity: 0.7;
+     }
+     .services{
+    
+        height: 600px;
+        background-color: white;
+        font-family: 'Times New Roman', Times, serif;
+         font-style: normal;
+             width: 400px;
+             margin-left: 2rem;
+             margin-top: 2rem;
+             opacity: 0.7;
+    
+     }
+
+
+     .cons{
+        margin-left: 2rem;
+        width: 400px;
+    }
+
+    .find-me{
+
+    
+        height: 200px;
+       background-color:white;
+        
+            width: 400px;
+            margin-left: 2rem;
+            margin-top: 4rem;
+            opacity: 0.7;
+    
+}
+
+
+
+
+     .form-wrap{
+        margin-left: 3px;
+        width: 450px;
+
+    }
+    
+    .columnn {
+      flex: 50%;
+    }
+   
+    .roww{
+        flex-direction: column;
+    }
+    .map{
+        width: 330px;
+        height: 200px;
+    }
+ 
+    .fa-phone{
+       margin-left: 5rem;
+
+    }
+   
+  }
+
+
+
+
+
+
+  @media screen and (max-width: 440px) {
+    .size1{
+        height: 700px !important;
+    background:white;
+    
+        width: 350px;
+        
+        margin-top: 2rem;
+        opacity: 0.7;
+      
+      
+     }
+     .size2{
+        height: 1700px;
+    background-color: white;
+    
+        width: 350px;
+       
+        margin-top: 2rem;
+        opacity: 0.7;
+      
+      
+     }
+     .size-qa{
+        height: 1800px;
+    background:white;
+    
+        width: 350px;
+        
+        margin-top: 2rem;
+        opacity: 0.7;
+      
+      
+     }
+
+
+     .size-ta{
+        height: 2900px;
+    background:white;
+    
+        width: 300px;
+      
+        margin-top: 2rem;
+        opacity: 0.7;
+      
+     }
+     .privacy{
+    
+        height: 2100px;
+        background-color: white;
+        font-family: 'Times New Roman', Times, serif;
+         font-style: normal;
+             width: 300px;
+            
+             margin-top: 2rem;
+             margin-bottom: 10px;
+             opacity: 0.7;
+     }
+    
+     .loc{
+        height: 450px;
+       background-color:white;
+        
+            width: 300px;
+           
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            opacity: 0.7;
+     }
+     .services{
+    
+        height: 800px;
+        background-color: white;
+        font-family: 'Times New Roman', Times, serif;
+         font-style: normal;
+             width: 300px;
+             margin-left: 2rem;
+             margin-top: 2rem;
+             opacity: 0.7;
+    
+     }
+     
+
+
+
+
+     .form-wrap{
+        
+        width: 190%;
+        
+
+    }
+    
+    .columnn {
+      flex: 50%;
+    }
+   
+    .roww{
+        flex-direction: column;
+    }
+    .map{
+        width: 250px;
+        height: 200px;
+    }
+ 
+    .fa-phone{
+       margin-left: 15rem;
+
+    }
+
+
+    .cons{
+  
+        width: 360px;
+    }
+
+    .find-me{
+
+    
+        height: 200px;
+       background-color:white;
+        
+            width: 380px;
+           
+            margin-top: 4rem;
+            opacity: 0.7;
+    
+}
+
+
+   
+  }
+
+
+
+
+  
+.cons{
+    background-color:whitesmoke;
+    opacity: 0.9;
+    margin-top: 2rem;
+}
+
+
+  .contact_us {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 17px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #45a049;
+}
+ 
+
+
+.find-me{
+
+   
+
+    
+        height: 200px;
+       background-color:white;
+        
+    
+            margin-top: 4rem;
+            opacity: 0.7;
+    
+
+
+}
+
+
+

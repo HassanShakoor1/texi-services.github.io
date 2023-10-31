@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0M6bxFE2jo4Un6OIdHXlO9cwiXbb-xXQ&libraries=places"></script>
+    <!--Contact Css-->
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="nav_icons">
+
+        <a href="#">
+            <i class="fa-brands  fa-facebook fa-2x "></i>
+        </a>
+    
+         <a href="#">
+            <i class="fa-brands fa-instagram fa-2x "></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-twitter fa-2x "></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-linkedin fa-2x "></i>
+        </a>
+    </div> 
+   
+    
+
+
+    <div class="navbar">
+        <div class="logo"><img style="width: 70px;" src="./images/WhatsApp Image 2023-10-15 at 4.46.04 PM.jpeg" alt="">
+        <h2 style="   color:orange;">Global Texi Service</h2>
+        
+        </div>
+        <h3 class="   fa-beat"  style="color: yellow;">03114453396</h3>
+        <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div class="nav-links">
+            <a href="./new.html">Home</a>
+            <a href="./qa.html">Q&A</a>
+            <a href="./ta.html">T&A</a>
+            <a href="./contact.html">Contact Us</a>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="bb-row">
+    
+    </div>
+    <div class="before-row">
+    
+        <div class="roww">
+            <div  class="columnn">
+        
+    <section  class="form-wrap">
+        <div class="form-container">
+            <form action="" id="multi-step-form">
+                <div id="form-container-box">
+                    <h1 class="form-title">New Booking</h1>
+                    <ul class="progress-bar">
+                        <li id="step1" class="active">Ride Info</li>
+                        <li id="step2" >Select Vehicle</li>
+                        <li id="step3" >Payment Info</li>
+                    </ul>
+                    <!--Step 1-->
+                    <div class="step-group" id="step-group-1">
+                        <div class="form-box">
+                            <div class="form-group">
+                                <label class="label-lg "><b>Select Date and Time</b></label><br>
+                                <input type="date" class="form-field1">
+                                <input type="time" class="form-field1">
+                            </div>
+                        
+                        </div>
+                       <br>
+                        <div class="form-box">
+                            <div class="form-group">
+                                <label class="label-lg " ><b>Pick Up</b></label><br>
+                                <input type="text" required id="location"   class="form-field">
+                            </div>
+                    </div>
+                    <!--Button-->
+                    <div class="form-box1">
+                        <div class="btn-step1 "  >
+            <button id="openLoginForm">Required any stop</button>
+         <!-- <div id="loginForm" class="modal">
+             <div class="modal-content">
+
+              <span class="close" id="closeLoginForm">&times;</span>
+               <h2 style="text-align: center;">Add Stop</h2>
+               <form>
+                <input type="url" class="form-field" placeholder="Start typing Adddress">
+                <label class="label-lg " ><b>Time at a stop</b></label>
+                <select type="option" class="form-field1">
+                    <option value="volvo">5 min</option>
+                    <option value="saab">10 min</option>
+                    <option value="opel">15 min</option>
+                    <option value="audi">20 min</option>
+                    <option value="volvo">30 min</option>
+                    <option value="saab">40 min</option>
+                    <option value="opel">50 min</option>
+                    <option value="audi">60 min</option>
+                  </select>
+
+            </form>
+        </div>
+    </div>
+                        </div>  -->
+                </div>
+               <br>
+                
+                <div class="form-box">
+                    <div class="form-group">
+                        <label class="label-lg " ><b>Drop Off</b></label><br>
+                        <input type="text" required id="location"  class="form-field">
+                    </div>
+            </div>
+                <div class="form-box">
+                    <div class="form-group">
+                        <label class="label-lg "><b>Adult Seat  &emsp; &emsp; &emsp; &emsp; &emsp;&emsp;&emsp;&emsp;  Suitcases</b></label><br>
+                        
+                        <select type="option" class="form-field1">
+                            <option value="volvo">0</option>
+                            <option value="saab">1</option>
+                            <option value="opel">3</option>
+                            <option value="audi">4</option>
+                            <option value="volvo">5</option>
+                            <option value="saab">6</option>
+                            <option value="opel">7</option>
+                            <option value="audi">8</option>
+                          </select>
+                      
+                          <select type="option" class="form-field1">
+                            <option value="volvo">0</option>
+                            <option value="saab">1</option>
+                            <option value="opel">3</option>
+                            <option value="audi">4</option>
+                            <option value="volvo">5</option>
+                            <option value="saab">6</option>
+                            <option value="opel">7</option>
+                            <option value="audi">8</option>
+                          </select>
+                    </div>
+                  </div>
+                <div class="form-box">
+                    <div class="btn-step">
+                       <button id="step-next-1">See price</button>
+                    </div>
+            </div>
+            <br><br>
+            <!--Map-->
+           <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14160469.889764879!2d58.35041162625681!3d29.946479714752748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38db52d2f8fd751f%3A0x46b7a1f7e614925c!2sPakistan!5e0!3m2!1sen!2s!4v1697135839145!5m2!1sen!2s" width="570" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         
+        </div>
+   
+</div> 
+        <!--Step 2-->
+            <div class="step-group" id="step-group-2">
+                <div class="form-box">
+                    <div class="form-group">
+                        <div class="summary">
+                        <label class="label-lg "><b>Booking Summary:</b>
+                        <small>27-10-2023 01:10 PM  <b>| 401.90 miles |  6 hrs  59 mins</b></small>&nbsp;<i class="fa fa-pencil" style="background-color: rgb(218, 213, 213);"></i></label>
+                         <br><br>
+                         &nbsp;<i class="fa fa-map-marker" style="color:green;"></i>
+                        <small >Pakistani Street Food, Victoria Road, Govanhill, Glasgow, UK</small>
+                        <br>
+                        &nbsp;<i class="fa fa-map-marker" style="color:red;"></i>
+                        <small >London, UK</small>
+                        <p>&nbsp;----------------------------------------------------------------------------------------------------</p>
+                    </div>
+                        
+                    </div>
+                </div>
+                <br>   
+                 <h4 class="vehicle"><b>Select Vehicle</b></h4>
+                 <br>
+                <div class="row">
+                    <div class="column">
+                <div class="card">
+                    <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
+                    <div class="container">
+                  
+                    <br>
+                      <p class="pera"><b>Saloon Car</b></p>
+                      <br>
+                      <img src="images/carnew.webp" alt="" class="img-1">
+                      <br><br><br>
+                      <p style="font-size: x-small;color: rgb(189, 186, 186);">Vehicle Description</p>
+                      <p style="font-size: x-small; color: rgb(194, 191, 191);">---------------------------------</p>
+                    <br>
+                      <div class="container-border">
+                       <p>4</p>
+                      </div>
+                      <br>
+                      <div class="container-border">
+                        
+                         <p>4</p>
+                        </div>
+                        <br>
+                        <div class="container-border">
+                            <p>$460.17</p>
+                            <br>
+                            <button id="step-next-2">Book Now <br> <i class="fa fa-angle-right" ></i></button>
+                           </div>
+                    </div>
+                </div>
+                </div>
+
+                
+                <div class="column">
+                    <div class="card">
+                        <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
+                        <div class="container">
+                        
+                        <br>
+                          <p class="pera"><b>People Carrier</b></p>
+                          <br>
+                          <img src="images/peopleC.webp" alt="" class="img-1">
+                          <br><br><br>
+                          <p style="font-size: x-small;color: rgb(189, 186, 186);">Vehicle Description</p>
+                          <p style="font-size: x-small; color: rgb(194, 191, 191);">---------------------------------</p>
+                        <br>
+                          <div class="container-border">
+                           
+                             <p>6</p>
+                            </div>
+                            <br>
+                            <div class="container-border">
+                                
+                                 <p>5</p>
+                                </div>
+                                <br>
+                                <div class="container-border">
+                                    <p>$704.32</p>
+                                    <br>
+                                    <button id="step-next-2">Book Now <br> <i class="fa fa-angle-right" ></i></button>
+                                   </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="column">
+                        <div  class="card">
+                            <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
+                            <div class="container">
+                          
+                            <br>
+                              <p class="pera"><b>Executive Car</b></p>
+                              <br>
+                              <img src="images/executive.webp" alt="" class="img-1">
+                            
+                              <br><br><br>
+                              <p style="font-size: x-small;color: rgb(189, 186, 186);">Vehicle Description</p>
+                              <p style="font-size: x-small; color: rgb(194, 191, 191);">---------------------------------</p>
+                            <br>
+                              <div class="container-border">
+                               
+                                 <p>4</p>
+        
+                                </div>
+                                <br>
+                                <div class="container-border">
+                                     <p>3</p>
+                                    </div>
+                                    <br>
+                                    <div class="container-border">
+                                        <p>$1426.65</p>
+                                        <br>
+                                        <button id="step-next-2">Book Now <br> <i class="fa fa-angle-right" ></i></button>
+                                       </div>
+                            </div>
+                        </div> 
+                        <br><br>
+                        </div>
+                        <div class="column">
+                            <div class="card">
+                                <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
+                                <div class="container">
+                              
+                                <br>
+                                  <p class="pera"><b>8 Seater Mini Bus</b></p>
+                                  <br>
+                                  <img src="images/8seat.webp" alt="" class="img-1">
+                                  <br><br><br>
+                                  <p style="font-size: x-small;color: rgb(189, 186, 186);">Vehicle Description</p>
+                                  <p style="font-size: x-small; color: rgb(194, 191, 191);">---------------------------------</p>
+                                <br>
+                                  <div class="container-border">
+                                   
+                                     <p>8</p>
+            
+                                    </div>
+                                    <br>
+                                    <div class="container-border">
+                                         <p>8</p>
+                                        </div>
+                                        <br>
+                                        <div class="container-border">
+                                            <p>$1728.07</p>
+                                            <br>
+                                            <button  id="step-next-2">Book Now <br> <i class="fa fa-angle-right" ></i></button>
+                                           </div>
+                                </div>
+                                
+                            </div> 
+                            </div>
+                            <div class="column">
+                                <div class="card">
+                                    <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%"> -->
+                                    <div class="container">
+                                  
+                                    <br>
+                                      <p class="pera"><b>Executive People Carrier</b></p>
+                                      <br>
+                                      <img src="images/jeep.webp" alt="" class="img-1">
+                                    
+                                      <br><br><br>
+                                      <p style="font-size: x-small;color: rgb(189, 186, 186);">Vehicle Description</p>
+                                      <p style="font-size: x-small; color: rgb(194, 191, 191);">---------------------------------</p>
+                                    <br>
+                                      <div class="container-border">
+                                       
+                                         <p>6</p>
+                
+                                        </div>
+                                        <br>
+                                        <div class="container-border">
+                                             <p>5</p>
+                                            </div>
+                                            <br>
+                                            <div class="container-border">
+                                                <p>$1934.02</p>
+                                                <br>
+                                                <button id="step-next-2">Book Now <br> <i class="fa fa-angle-right" > </i></button>
+                                               </div>
+                                           
+                                    </div>
+                                </div> 
+                                <br><br>   
+                                <button id="step-prev-1" class="Prevbtn">&#65513; Back</button>
+                  </div> 
+                </div>
+            </div>
+                  <!--groupp 3--> 
+            <div  class="step-group" id="step-group-3">
+           <div class="form-box">
+                <div class="form-group">
+                   <div class="row-2">
+                        <div class="column-2">
+                            <p><b>Passenger Information</b></p>
+                            <p>------------------------------------------------</p><br>
+                            <label for="fname" class="label-lg">Name *</label><br>
+                            <input type="text" id="fname" name="fname" class="fieldn" required><br>
+                            <label for="fname">Email *</label><br>
+                            <input type="email" id="email" name="email" class="fieldn"><br>
+                            <label for="fname">Phone *</label><br>
+                            <input type="tel" id="phone" placeholder="Phoennumber" style="height: 40px;" required><br><br>
+                            <p><b>Additional Information</b></p>
+                            <p>------------------------------------------------</p><br>
+                            <label for="fname" class="label-lg">Country From:</label><br>
+                            <input type="text" id="fname" name="fname" class="fieldn" required><br>
+                            <label for="fname" class="label-lg">flight No:</label><br>
+                            <input type="text" id="fname" name="fname" class="fieldn" required><br><br>
+                            <p><b>Payment Method</b></p>
+                            <p>------------------------------------------------</p><br>
+                            <input type="radio" name="Subject"  value="Subject1" ><small>&nbsp; Cash ($1.00) - Grand total $461.17</small>
+                            <br>
+                            <input type="radio" name="Subject"  value="Subject2" ><small>&nbsp; Card Payment - Grand total $460.17</small>
+                            <br>
+                            <input type="radio" name="Subject"  value="Subject3" ><small>&nbsp; Paypal - Grand total $460.17</small>
+                                      <br><br><br><br><br>
+                              <Button id="step-prev-2" class="Prevbtn">&#65513; Back</Button>
+
+                        </div>
+                        <div class="column-3">
+                            <p><b>Booking Summary</b></p>
+                            <p>------------------------------------------------</p>
+                            <a href="" style="font-size: small;">27-10-2023 01:10 PM</a><br>
+                            <br>
+                            <Button  class="Prevbtn-1">Pick Up</Button>
+                            <br><br>
+                            <p style="font-size: small;">Pakistani Street Food, Victoria Road, Govanhill, Glasgow, UK</p>
+                            <br>
+                            <Button  class="Prevbtn-1">Drop Off</Button>
+                            <br><br>
+                            <p style="font-size: small;">London, UK</p>
+                            <br><br>
+                            <div class="container-border1">
+                                <p>1 Passenger</p>
+                               </div>
+                               <br>
+                               <p style="font-size: small;">Saloon Car <br> Capacity: 4 <br>
+                                Bags: 3</p>
+                                &nbsp;   &nbsp; &nbsp;
+                               
+                                <img src="images/carnew.webp" alt="" style="width: 250px;">
+
+                            <br><br><br><br><br><br><br><br><br><br><br><br><b></b>
+                            <Button id="step-next-3" class="lastBtn-1" >Grand Total: £461.17 <br>Click here to Finish</Button>
+
+
+                        </div>
+                        
+                      </div>
+                  
+                    </div>  
+                         </div>
+                                </div>
+                          
+        </form>  
+                      
+    </section>
+   
+
+</div>
+
+<div class="columnn">
+
+    
+    <div class="size1">
+        
+        <p class="heading">PRE-BOOKED TAXI SERVICES FROM AND TO AIRPORTS ACROSS THE UK</p>
+    <p class="para">Global Travel Services specializes in offering taxi transfers to and from all airports across the UK, serving both individuals and groups. Our focus remains on delivering a courteous and exceptionally professional personal service at competitive rates, available round the clock.</p>
+    
+    <p class="para">Global Travel Services specializes in offering taxi transfers to and from all airports across the UK, serving both individuals and groups. Our focus remains on delivering a courteous and exceptionally professional personal service at competitive rates, available round the clock.</p>
+    
+    <p class="para">Starting from your initial point of contact, we are dedicated to ensuring a seamless booking and transfer process. This encompasses providing an air-conditioned vehicle tailored to accommodate your number of passengers and luggage specifications. Our skilled driver, equipped with exceptional customer service skills and a profound familiarity with the local area, will guarantee a smooth and comfortable journey.</p>
+    </div>
+    
+  
+<div class="size2">
+   
+    <ul class="image-paragraph-list">
+        <li>
+            <img src="./images/car1.png" alt="Image 1">
+          
+
+            <p style="padding-left: 20px;">   <span class="heading">Saloon Option:</span>  <br>Ford Mondeo, VW Passat, or equivalent models. These vehicles can comfortably accommodate up to 3 passengers along with 3 standard suitcases (with a maximum weight of 23kg), or 4 passengers with carry-on luggage. Examples include Ford Mondeo, VW Passat, and similar models.</p>
+        </li>
+        <li>
+            <img src="./images/carnew.webp" alt="Image 2">
+            <p style="padding-left: 20px;"> <span class="heading">Executive & Luxury Vehicle:</span> <br> Mercedes E-Class, Executive & Luxury Vehicle -S Class, BMW 5 & 7 Series, Audi 7 & 8 Series Jaguar. These cars can accommodate up to 3 passengers with 3 standard suitcases (maximum weight of 23kg), or 4 passengers with carry-on luggage. Examples include E-Class Mercedes and similar high-end models.</p>
+        </li>
+        <li>
+            <img src="./images/executive.webp" alt="Image 3">
+            <p style="padding-left: 20px;"> <span class="heading"> Estate Vehicle Option:</span> <br> Volvo Estate, VW Passat, or equivalent models. These vehicles can conveniently accommodate up to 4 passengers with 4 standard suitcases (with a maximum weight of 23kg). Examples of suitable choices are Volvo Estate, VW Passat, and similar models.</p>
+        </li>
+
+        <li>
+            <img src="./images/jeep.webp" alt="Image 3">
+            <p style="padding-left: 20px;"> <span class="heading"> MPV Vehicle:</span><br>  Such as the VW Sharan, Ford Galaxy, or similar models. These vehicles offer the flexibility to accommodate up to 5 passengers along with 5 standard suitcases (with a maximum weight of 23kg), or alternatively, 6 passengers with carry-on luggage. Examples of vehicles in this category include the VW Sharan, Ford Galaxy, and similar options.</p>
+        </li>
+        <li>
+            <img src="./images/peopleC.webp" alt="Image 3">
+            <p style="padding-left: 20px;"> <span class="heading"> Executive and Luxury MPV Vehicle:</span> <br> Such as the Mercedes Viano or comparable models. These vehicles are designed to comfortably accommodate up to 5 passengers along with 5 standard suitcases (with a maximum weight of 23kg), or alternatively, 6 passengers with carry-on luggage. Examples of vehicles in this upscale category include the Mercedes Viano and similar options</p>
+        </li>
+    </ul>
+
+
+</div>
+
+   
+        
+    </div>
+
+   
+    </div>
+    
+      </div>
+</div>
+
+    </div>
+    </div>
+</div>
+
+
+
+
+  <div class="loc">
+    <br>
+    <h1 class="heading" style="margin: 20px; font-size: 40px;"> popular Location</h1>
+<p class="para" >Heathrow, Gatwick,LutonHumberside,London-City, Inverness, Leeds-Bradford, Liverpool, ,Glasgow,Birmingham, Blackpool, Bournemouth, Bristol, Cardiff, Coventry, East Midlands, Edinburgh, Exeter, Aberdeen, Belfast-City, Belfast-International,Southend, Stansted,Manchester, Newcastle, Newquay, Norwich, Plymouth, Prestwick, Sheffield, SouthamptonTeesside, and many other popular cities</p>
+
+
+
+</div>
+
+
+<style>
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+    
+</style>
+
+<div class="services">
+<br>
+<h1 class="heading" style="margin: 20px; font-size: 40px;"> Services</h1>
+<p class="para" >Global Travel Services may set up a “Meet and Greet” service for your convenience. The driver will be waiting at the arrivals area with a sign that, at your request, will either display the passenger’s name or the corporate name.Visitors who use this service, particularly those who are going abroad for the first time, can feel more at ease.
+<p class="para">You may be confident that we will track the status of your flight and modify the driver’s arrival time if it takes off or lands earlier than expected. Our services are largely developed with business demands in mind. You may be sure that we’ll offer the same level of dependable, high-quality service that you would expect if you were to book a cab for someone else. We provide email-based electronic receipts and accept the vast majority of popular credit and debit cards</p>
+</p>
+<p class="para"> Corporate account clients are also cordially welcomed by Global Travel Services. We’re happy to offer a monthly invoicing option or set up a direct debit arrangement for our airport taxi services with appropriate credit references.</p>
+
+
+
+</div>
+
+</div>
+
+
+
+    
+    
+ 
+
+</div>
+</div>
+
+    
+
+<footer>
+
+    <p >  &copy;Global Travel Services</p>
+  
+
+        
+        
+      
+    </div>
+  
+</footer>
+
+
+
+
+
+   
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var autocomplete;
+            var id = 'location';
+          
+            autocomplete = new google.maps.places.Autocomplete((document.getElementById(id)),{
+                types:['geocode'],
+            })
+        });
+
+    </script>
+    <script src="script.js"></script>
+    
+    <script src="/js/contact.js"></script>
+    <script>
+        var input = document.querySelector("#phone");
+        window.intlTelInput(input,{});
+
+
+
+
+
+
+
+    
+        
+
+
+        const hamburgerMenu = document.querySelector('.hamburger-menu');
+const navLinks = document.querySelector('.nav-links');
+
+hamburgerMenu.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
+
+    </script>
+
+
+ 
+</body>
+</html>
